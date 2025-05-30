@@ -471,15 +471,44 @@ button {
   padding: 10px;
 }
 
+div.accordion-header {
+  background-color: #6c757d;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 18px;
+}
+
+div.accordion-header:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+div.accordion-body:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
 hr {
-  border-style: inset;
+  margin-bottom: 0px;
 }
 
 #newMessHover:hover {
+  cursor: pointer;
   background-color: black;
 }
 
 #inboxHover:hover {
-  background-color: #c0c0c0;
+  background-color: #ccc;
   color: black;
+}
+
+button.repForwBtn:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+div.accordion-item1:hover {
+  cursor: pointer;
+  background-color: #ccc;
 }/*# sourceMappingURL=style.css.map */

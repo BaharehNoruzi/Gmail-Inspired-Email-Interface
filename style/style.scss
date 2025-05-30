@@ -1,16 +1,49 @@
 @import 'init.scss';
-button{
+
+button {
     border: none;
     padding: 10px;
 }
-hr{
-border-style: inset;
+
+div.accordion-header {
+    background-color: #6c757d;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 18px;
 }
 
-#newMessHover:hover{
+div.accordion-header:hover {
+    cursor: pointer;
     background-color: black;
 }
-#inboxHover:hover{
-    background-color: #c0c0c0;
+
+
+div.accordion-body:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+hr {
+    margin-bottom: 0px;
+}
+
+#newMessHover:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+#inboxHover:hover {
+    background-color: #ccc;
     color: black;
+}
+
+button.repForwBtn:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+div.accordion-item1:hover {
+    cursor: pointer;
+    background-color: #ccc;
 }

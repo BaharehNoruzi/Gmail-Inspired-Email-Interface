@@ -471,6 +471,11 @@ button {
   padding: 10px;
 }
 
+button.btn-close:hover {
+  cursor: pointer;
+  background-color: #ccc;
+}
+
 div.accordion-header {
   background-color: #6c757d;
   color: white;
@@ -491,6 +496,16 @@ div.accordion-body:hover {
 
 hr {
   margin-bottom: 0px;
+}
+
+.accordion-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.accordion-button:hover {
+  background-color: #d6d6d6;
+  color: black;
 }
 
 #newMessHover:hover {

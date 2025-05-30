@@ -20,16 +20,16 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="accordion-header">
-                    <p>New Message <i class="bi bi-pencil"></i> </p>
+                    <p data-bs-toggle="modal" data-bs-target="#myModal">New Message <i class="bi bi-pencil"></i> </p>
 
                 </div>
                 <div class="accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="flush-headingOne">
-                            <button class="accordion-button collapsed  bg-danger text-bg-dark" type="button"
+                            <button class="accordion-button collapsed  " 
                                 data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
                                 aria-controls="flush-collapseOne">
-                                <i id="inboxHover" class="bi bi-inbox-fill"> Inbox(3) </i> 
+                                <i id="inboxHover" class="bi bi-inbox-fill"> Inbox(3) </i>
                             </button>
                         </h2>
                         <div id="flush-collapseOne" class="accordion-collapse collapse"
@@ -50,7 +50,7 @@
                                 <hr>
                             </div>
                             <div class="accordion-body" onclick="showInformation(2)">
-                                <img class="imagetombnail rounded-2" alt="John Doe" width="10%">
+                                <img class="imagetombnail rounded-2 " alt="John Doe" width="10%">
                                 <strong class="fullname"></strong>
                                 <p class="subject"></p>
                                 <p class="body"></p>
@@ -73,13 +73,14 @@
             </div>
             <div class="col-md-9">
                 <div>
-                    <img id="email-pic" class="mt-4 rounded-2" alt="Borge Refsnes" width="20%">
+                    <img id="email-pic" class="mt-4 rounded-2 " alt="Borge Refsnes" width="20%">
                 </div>
                 <p id="subjectt"></p>
                 <i class="bi bi-clock "><span id="dateOfSend"></span></i>
                 <div>
                     <button class="repForwBtn">Reply <i class="bi bi-reply-fill"></i></button>
                     <button class="repForwBtn">Forward <i class="bi bi-forward-fill"></i></button>
+                    <hr>
                 </div>
 
                 <p id="desc"></p>

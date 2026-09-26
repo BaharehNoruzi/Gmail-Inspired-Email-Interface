@@ -1,4 +1,3 @@
-**About the Project**
 
 In this project, I tried to create a **Gmail-inspired email interface** for displaying and managing received messages.
 
